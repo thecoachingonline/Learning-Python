@@ -1,2 +1,2 @@
 # learning-python
-Here are my study notes for liarning Python
+Here are my study notes for learning Python
