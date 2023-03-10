@@ -91,3 +91,12 @@ if fortune_number == 3:
     fortune_text = 'You will get married this year!'
 
 print(f'{fortune_text} Your Lucky Number is: {lucky_number}')
+
+#Lists
+fav_movies = ["Sandlot", "The Lego Move", "Dune"]
+
+print(fav_movies[2])
+
+fav_numbers = [4,9,33]
+
+print(fav_numbers[0])
