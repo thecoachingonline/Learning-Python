@@ -112,3 +112,11 @@ print(fav_movies)
 
 del(fav_movies[2])
 print(fav_movies)
+
+#For loops
+for number in range(10):
+    print(number)
+    print("Hello")
+
+for movie in fav_movies:
+    print(movie * 2)
