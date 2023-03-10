@@ -38,3 +38,24 @@ if light_is_on:
     print("The light is on!")
 
 print("Hello")
+
+#Comparison and else
+
+light_is_on = True
+
+if light_is_on:
+    print("The light is on!")
+else:
+    print("We're in the dark")
+
+weight = 190.4
+
+if weight != 195:
+    print("You're under weight :)")
+
+age = 17
+
+if age >= 18:
+    print("Adult")
+else:
+    print("Child")
