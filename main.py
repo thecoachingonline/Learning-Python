@@ -30,3 +30,11 @@ temp = 65
 day_name = 'Tuesday'
 
 print(f"Today is {day_name} {month} {day} and it's {temp} degrees outside")
+
+#Booleans and if statements
+light_is_on = False
+
+if light_is_on:
+    print("The light is on!")
+
+print("Hello")
