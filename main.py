@@ -20,4 +20,13 @@ print(day * temp)
 age = 32
 shirt = 'blue'
 store = 'Nink\'s Pizza Shop, '
+
 print(store + age + shirt)
+
+#Using variables in strings
+day = 21
+month = 'October'
+temp = 65
+day_name = 'Tuesday'
+
+print(f"Today is {day_name} {month} {day} and it's {temp} degrees outside")
