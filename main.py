@@ -273,3 +273,14 @@ while guess!= correct_number:
     guess = int(input("What is your guess?: "))
 
 print(f"Congrats! The right answar was {correct_number}. It took you {guess_count} guesses.")
+
+#Higher, lower, and polish
+import random
+import time
+ if guess:
+    time.sleep(3)
+    print("Hi")
+
+ else: guess:
+    time.sleep(2)
+    print("สวัสดี")
