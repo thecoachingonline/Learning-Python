@@ -211,3 +211,15 @@ for word in text.lower().split():
        word_count[word] = 1
 
 print(word_count)
+
+#Functions
+def bark():
+    print("Woof woof!")
+    print("I'm a dog!")
+
+for x in range(100):
+    bark()
+
+def hello():
+    print("Hello Nick!")
+hello()
