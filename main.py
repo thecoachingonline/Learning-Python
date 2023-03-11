@@ -255,3 +255,10 @@ wallet -= 8 # I
 wallet += 40 # I
 'nick'.upper()
 print("Hello")
+
+#Input
+user_text = input('Enter some text: ')
+print(user_text.upper())
+
+user_number = input("What do you want to doble? ")
+print(int(user_number) * 2)
