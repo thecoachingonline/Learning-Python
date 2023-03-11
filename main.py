@@ -262,3 +262,14 @@ print(user_text.upper())
 
 user_number = input("What do you want to doble? ")
 print(int(user_number) * 2)
+
+#Game loop
+guess = int(input("What is you guess?: "))
+correct_number = 5
+guess_count = 0
+
+while guess!= correct_number:
+    guess_count += 1
+    guess = int(input("What is your guess?: "))
+
+print(f"Congrats! The right answar was {correct_number}. It took you {guess_count} guesses.")
