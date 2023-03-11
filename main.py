@@ -120,3 +120,7 @@ for number in range(10):
 
 for movie in fav_movies:
     print(movie * 2)
+
+#Dictionaries
+cate = {"Jane":6, "Tom":14, "Sara":8}
+ print(cate["Tom"])
