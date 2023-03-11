@@ -248,3 +248,10 @@ names = ['nick', 'Jane', 'sara']
 
 for name in names:
     print(uppercase(names))
+
+#Comments
+wallet = 40
+wallet -= 8 # I
+wallet += 40 # I
+'nick'.upper()
+print("Hello")
