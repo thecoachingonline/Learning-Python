@@ -231,3 +231,20 @@ def add_numbers(num1,num2):
 
 add_numbers(4,8)
 add_numbers(3,7)
+
+#Return
+def double(number):
+    return number * 2
+
+new_number = double(5)
+print(new_number)
+
+def uppercase(text):
+    return text.upper()
+
+print(uppercase("Nick"))
+
+names = ['nick', 'Jane', 'sara']
+
+for name in names:
+    print(uppercase(names))
