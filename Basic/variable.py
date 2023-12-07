@@ -14,3 +14,29 @@ print(mybool)
 print(mylist)
 print(mytuple)
 print(mydict)
+
+# myint = "abc"
+# print(myint)
+
+print(mylist[2])
+print(mytuple[1])
+
+print(mylist[1:5])
+print(mylist[1:5:2])
+
+print(mylist[::-1])
+
+print(mydict["one"])
+
+print("string type" + str(123))
+
+def someFunction():
+    global mystr
+    mystr = "def"
+    print(mystr)
+
+someFunction()
+print(mystr)
+
+del mystr
+print(mystr)
