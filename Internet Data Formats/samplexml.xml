@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<person>
+    <firstname>Nanthachai</firstname>
+    <lastname>Yuennan</lastname>
+    <home>udon</home>
+    <skill name="HTML"/>
+    <skill name="Java"/>
+    <skill name="C#"/>
+    <skill name="Python"/>
+</person>
