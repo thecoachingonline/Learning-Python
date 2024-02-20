@@ -1,4 +1,5 @@
-x = input("X: ")
-y = input("Y: ")
+x = int(input("X: "))
+y = int(input("Y: "))
 
-print(int(x) + int(y))
+z = x / y
+print(f"{z:.50f}")
