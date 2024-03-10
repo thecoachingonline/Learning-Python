@@ -7,6 +7,9 @@ class Book:
         self.pages = pages
         self.price = price
 
+    def getprice(self):
+        return self.price
+
 b1 = Book("War and Peace")
 b2 = Book("The Cather in the Rye")
 
