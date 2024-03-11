@@ -13,4 +13,4 @@ class Book:
 b1 = Book("War and Peace")
 b2 = Book("The Cather in the Rye")
 
-print()
+print(b1.getprice())
