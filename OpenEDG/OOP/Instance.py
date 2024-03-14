@@ -6,6 +6,7 @@ class Book:
         self.author = author
         self.pages = pages
         self.price = price
+        self.__secret = "This is a secret attribute"
 
     def getprice(self):
         if hasattr(self,"_discount"):
