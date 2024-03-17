@@ -28,3 +28,4 @@ print(b1.getprice())
 #print(b2.getprice())
 
 print(b2.__Book__secret)
+print("")
