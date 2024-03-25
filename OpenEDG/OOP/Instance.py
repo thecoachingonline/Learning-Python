@@ -23,7 +23,7 @@ b2 = Book("The Cather in the Rye","JD Salinger", 234, 29.95)
 
 print(b1.getprice())
 
-#print(b2.getprice())
+print(b2.getprice())
 #b2.setdiscount(0.25)
 #print(b2.getprice())
 
