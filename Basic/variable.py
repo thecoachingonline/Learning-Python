@@ -1,3 +1,5 @@
+#!/usr/bin/python 
+
 myint = 5
 myfloat = 13.2
 mystr = "This is a string"
@@ -40,3 +42,18 @@ print(mystr)
 
 del mystr
 print(mystr)
+
+# Variables and Types
+x = 3
+f = 3.1415926
+name = "Python"
+
+print(x)
+print(f)
+print(name)
+
+combination = name + " " + name
+print(combination)
+
+sum = f + f
+print(sum)
