@@ -1,0 +1,5 @@
+virtualenv -p python3 envname
+virtualenv -p python3 testproject
+cd testproject
+bin/activate
+deactivate
