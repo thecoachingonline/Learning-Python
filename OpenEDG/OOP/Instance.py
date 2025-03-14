@@ -11,7 +11,7 @@ class Book:
     def getprice(self):
         if hasattr(self,"_discount"):
             return self.price - (self.price * self._discount)
-        elif:
+        else:
             return self.price
         
     def setdiscount(self, amount):
@@ -28,7 +28,3 @@ print(b1.getprice())
 #print(b2.getprice())
 
 print(b2.__Book__secret)
-
-
-
-#๑๔
