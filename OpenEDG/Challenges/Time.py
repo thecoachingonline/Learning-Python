@@ -49,3 +49,27 @@ if days_left_75 > 0:
     print(f"  - เวลาส่วนตัว: {personal_75} ชั่วโมง")
 else:
     print("คุณมีอายุ 75 ปีแล้ว หรือมากกว่านั้น")
+
+# คำนวณวันที่เหลือถึงอายุ 100 ปี
+days_left_100 = calculate_days_left(birth_day, birth_month, birth_year, 100)
+if days_left_100 > 0:
+    print(f"คุณเหลือเวลาอีกประมาณ {days_left_100} วัน จนถึงอายุ 100 ปี")
+    sleep_100, work_100, personal_100 = calculate_time_usage(days_left_100)
+    print(f"  - เวลานอน: {sleep_100} ชั่วโมง")
+    print(f"  - เวลาทำงาน: {work_100} ชั่วโมง")
+    print(f"  - เวลาส่วนตัว: {personal_100} ชั่วโมง")
+else:
+    print("คุณมีอายุ 100 ปีแล้ว หรือมากกว่านั้น")
+
+# คำนวณเวลาทั้งหมดตั้งแต่เกิด
+age_now = date.today().year - birth_year - ((date.today().month, date.today().day) < (birth_month, birth_day))
+days_lived = (date.today() - date(birth_year, birth_month, birth_day)).days
+hours_lived_sleep = days_lived * 8
+hours_lived_work = days_lived * 8
+hours_lived_personal = days_lived * 8
+
+print(f"คุณมีอายุ {age_now} ปีแล้ว")
+print(f"คุณใช้เวลาไปแล้วทั้งหมด {days_lived} วัน")
+print(f"  - เวลานอน: {hours_lived_sleep} ชั่วโมง")
+print(f"  - เวลาทำงาน: {hours_lived_work} ชั่วโมง")
+print(f"  - เวลาส่วนตัว: {hours_lived_personal} ชั่วโมง")
