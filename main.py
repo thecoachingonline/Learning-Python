@@ -123,7 +123,7 @@ for movie in fav_movies:
 
 #Dictionaries
 cate = {"Jane":6, "Tom":14, "Sara":8}
- print(cate["Tom"])
+  # print(cate["Tom"])
 
 #Splitting a string
 text = """
@@ -277,10 +277,10 @@ print(f"Congrats! The right answar was {correct_number}. It took you {guess_coun
 #Higher, lower, and polish
 import random
 import time
- if guess:
-    time.sleep(3)
-    print("Hi")
+ #if guess:
+    #time.sleep(3)
+    #print("Hi")
 
- else: guess:
-    time.sleep(2)
-    print("สวัสดี")
+ #else: guess:
+    #time.sleep(2)
+    #print("สวัสดี")
