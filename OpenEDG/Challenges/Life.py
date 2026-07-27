@@ -1,4 +1,4 @@
-from datetime import date
+ใบfrom datetime import date
 
 def calculate_days_left(birth_month, birth_year):
     """คำนวณจำนวนวันที่เหลืออยู่จนถึงอายุ 75 ปี"""
@@ -61,4 +61,4 @@ else:
     print("คุณมีอายุ 75 ปีแล้ว หรือมากกว่านั้น")
 
 
-if Mar < 23:
+if Mar < 27:
